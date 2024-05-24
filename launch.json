@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch Java App",
+        "request": "launch",
+        "mainClass": "${java.project.mainClass}",
+        "vmArgs": ["-Dfile.encoding=UTF-8", "-Djava.library.path=${env:ANDROID_HOME}/platforms/${platform}/shared/android-21"],
+        "env": {
+          "ANDROID_HOME": "${workspaceFolder}/Users/anummirshad/Library/Android/sdk"
+        }
+      }
+    ]
+  }
